@@ -1,0 +1,185 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-size: 16px;
+    font-family: sans-serif;
+    line-height: 28px;
+    background-color: #A49393;
+    color: #333333;
+
+}
+.container {
+    width: 900px;
+    margin: auto;
+    background-image: linear-gradient(#EED6D3, #FDB750);
+}
+
+.header {
+    padding-top: 20px;
+    padding-left: 20px;
+    height: 125px;
+}
+
+.header .logo{
+    margin-right: 20px;
+    float: left;
+    padding-bottom: 10px;
+}
+
+.header .logo img {
+    width: 100px;
+    height: 100px;
+}
+
+.header .judul {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.header .judul h3 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.menu {
+    height: 31px;
+    margin: 0px auto;
+	padding: 0px 20px 10px;
+    background-color: #333333;
+}
+
+.menu ul {
+    margin: 0;
+	padding: 0px 0px 0px 0px;
+	list-style: none;
+	line-height: normal;
+}
+
+.menu li {
+    display: inline-block;
+    font-weight: bold;
+}
+
+.menu a {
+    display: block;
+    text-decoration: none;
+    color: #E8B4B8;
+    padding: 10px;
+}
+
+.menu a:hover {
+    background-color: #67595E;
+    color: #E8B4B8;
+}
+
+.gambar {
+    height: 300px;
+    background-image: url(img/foto.png);
+    border-top: #E8B4B8 5px solid;
+    border-bottom: #E8B4B8 5px solid;
+}
+
+.konten {
+    margin: 0px;
+    padding: 0px;
+}
+
+.post .judul {
+    letter-spacing: -2px;
+	font-size: 20px;
+    background-color: #c7c2c2;
+    padding: 10px;
+    border: #333333 3px solid;
+    box-shadow: #333333 5px 5px;
+}
+.button {
+    margin: auto;
+    display: block;
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    font-family: italic;
+    font-weight: bold;
+
+
+}    
+
+.button:hover {
+    background: red;
+    color: #333;
+    border-radius: 5px;
+    border: #333333 1px solid;
+    font-family: italic;
+    font-weight: bold;
+
+}    
+.post .isi{
+    padding: 10px;
+    margin-bottom: 20px;
+    border: #333333 1px solid;
+}
+
+.post .isi p {
+    padding-bottom: 20px;
+    text-align: justify;
+}
+
+.post .isi a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px;
+    background-color: #A0E7E5;
+    color: #333;
+    border: #333333 2px solid;
+    border-radius: 100px;
+}
+
+.post .isi img {
+    width: 200px;
+    height: 140px;
+    border: #333333 1px solid;
+}
+.table ol   {
+    margin: auto;
+    background-color: orangered;
+    padding: 50px;
+    margin-top: 50px;
+    border: #333333 2px solid;
+    border-radius: 100px;
+    box-shadow: #333333 5px 5px;
+
+}
+.dalam  {
+    align-content: center;
+    margin: auto;
+    
+    padding: 50px;
+    margin-top: 50px;
+    border: #333333 2px solid;
+    border-radius: 80px;
+    box-shadow: #333333 5px 5px;
+
+
+}
+.gambardalam {
+    padding: 2%;
+    margin-top: 2%;
+    box-shadow: #333333 5px 5px;
+    border: #333333 2px solid;
+}
+.footer {
+    background-color: #c7c2c2 ;
+    padding-bottom: 2%;
+    margin-bottom: 2%;
+    text-align: center;
+    font-family: italic;
+    font-weight: bold;
+    box-shadow: #333333 5px 5px;
+    border: #333333 2px solid;
+
+
+}
